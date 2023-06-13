@@ -1,0 +1,113 @@
+/*  *{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+}  */
+body{
+	margin:0px auto;
+	width:80%
+}
+a{
+	text-decoration:none;
+	color:black;
+}
+#container{
+	width:100%;
+}
+#container .sec1{
+	display:flex;
+}
+#container .sec1 .img1 img{
+	height:120px;
+	width:120px;
+}
+#container .sec1 .img1{
+	/* background-color:blue; */
+	width:15%;
+	padding:5px;
+	display:flex;
+}
+#container .sec1 .nav{
+	/* background-color:yellow; */
+	width:100%;
+	margin-left:10px;
+	justify-content:center;
+	word-spacing:40px;
+}
+/* Section2 */
+#container .sec2{
+	width:100%;
+	padding:3px;
+	text-align:center;
+	color:white;
+	background-color:black;
+}
+#container .sec2 h1{
+	font-size:40px;
+}
+#container .sec2 button{
+	padding:10px;
+	color:white;
+	background-color:black;
+	border:1px solid white;
+}
+/* Section3 */
+#container .sec3 .img2 img{
+	width:40px;
+	height:30px;
+	
+}
+#container .sec3 .img2{
+	/* background-color:goldenrod; */
+	width:5%;
+	height:50px;
+	float:left;
+}
+#container .sec3 .para1{
+	/* background-color:lightcoral; */
+	height:50px;
+	width:95%;
+	float:right;
+}
+#container .sec3 .nav1{
+	word-spacing:50px;
+	line-height:40px;
+	padding:10px;
+}
+/* Section-4 */
+#container .sec4 .education{
+	line-height:8px;
+	width:100%;
+	padding-left:5px;
+	border-left:5px solid lightgray;
+}
+.percentage{
+	margin-left:50px;
+	left:50%;
+	height:60px;
+	width:80px;
+	float:right;
+	background-color:lightgray;
+	text-align:center;
+}
+/* Section-5 */
+#container .sec5 .project{
+	line-height:8px;
+	width:100%;
+	padding-left:5px;
+	border-left:5px solid lightgray;
+}
+#container .sec5 .project p span{
+	font-size:17px;
+}
+/* Section-6 */
+#container .sec6{
+	width:100%;
+}
+#container .sec6 .img4{
+	word-spacing:20px;
+}
+#container .sec6 .img4 a img{
+	width:30px;
+	height:30px;
+}
